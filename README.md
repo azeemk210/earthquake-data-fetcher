@@ -6,6 +6,11 @@ This repository contains Python scripts to fetch earthquake data from two differ
 1. **EMSC (European-Mediterranean Seismological Centre)** - Retrieves earthquake data in CSV format.
 2. **INGV (Istituto Nazionale di Geofisica e Vulcanologia, Italy)** - Retrieves earthquake data in GeoJSON format.
 
+### No Registration Required
+The earthquake data can be accessed without registration from the following sources:
+- [INGV Earthquake Portal](https://terremoti.ingv.it/)
+- [EMSC Earthquake Portal](https://emsc-csem.org/)
+
 ## Files
 - `fetch_emsc_data.py` - Fetches earthquake data from EMSC API and saves it as a CSV file.
 - `fetch_indgv_data.py` - Fetches earthquake data from INGV API and saves it as a CSV file.
@@ -40,3 +45,4 @@ Feel free to submit pull requests with improvements or bug fixes.
 
 ## License
 This project is open-source and available under the MIT License.
+
